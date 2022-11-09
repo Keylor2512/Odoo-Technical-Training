@@ -1,6 +1,6 @@
 {
     'name': 'Space Mission',
-    'version': '0.1',
+    'version': '0.6',
     'summary': 'Odoo Application to control its Space Mission',
     'description': """
         Space Mission Application to Manage Space Control:
@@ -13,15 +13,17 @@
     'website': 'www.odoo.com',
     'category': 'Tech Training',
     
-    'depends': ['base'],
-    'data': [],
+    'depends': [],
+    'data': [
+       
+    ],
     'demo': [],
     
     'assets': {},
     
     'installable': True,
     'application': True,
-    'auto_install': True,
+    'auto_install': False,
     
 }
 
